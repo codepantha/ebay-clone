@@ -10,4 +10,12 @@
   .headerLink {
     @apply hidden md:inline-flex cursor-pointer;
   }
+
+  .link {
+    @apply hover:text-blue-500 underline cursor-pointer text-gray-600;
+  }
+
+  .headerButton {
+    @apply hidden sm:inline-block md:px-10 py-2 border-2 border-blue-600;
+  }
 }
