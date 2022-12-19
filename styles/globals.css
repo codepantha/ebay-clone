@@ -18,4 +18,20 @@
   .headerButton {
     @apply hidden sm:inline-block md:px-10 py-2 border-2 border-blue-600;
   }
+
+  .listingContainer {
+    @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 mx-auto;
+  }
+
+  .listingItem {
+    @apply flex flex-col card hover:scale-105 transition-all duration-150 ease-out;
+  }
+
+  .card {
+    @apply border border-gray-200 rounded-md p-5 bg-gray-50 cursor-pointer hover:bg-gray-100;
+  }
+
+  .listingItemImageContainer {
+    @apply flex-1 flex flex-col pb-2 items-center;
+  }
 }
