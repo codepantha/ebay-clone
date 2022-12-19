@@ -32,6 +32,6 @@
   }
 
   .listingItemImageContainer {
-    @apply flex-1 flex-col pb-2 items-center;
+    @apply flex-1 flex flex-col pb-2 items-center;
   }
 }

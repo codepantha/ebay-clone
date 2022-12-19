@@ -22,7 +22,7 @@ const Home: NextPage = () => {
     <div className="">
       <Header />
 
-      <main className="max-w-6xl mx-auto p-2">
+      <main className="max-w-6xl mx-auto p-2 px-6">
         {loadingListings ? (
           <p className="text-center animate-pulse text-blue-500">
             Loading listings...
@@ -33,7 +33,7 @@ const Home: NextPage = () => {
               <div key={listing.id} className="listingItem">
                 <div className="listingItemImageContainer">
                   <MediaRenderer
-                    className="w-44 mx-auto"
+                    className="w-44"
                     src={listing.asset.image}
                   />
                 </div>
