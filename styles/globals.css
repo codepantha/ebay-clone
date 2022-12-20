@@ -34,4 +34,9 @@
   .listingItemImageContainer {
     @apply flex-1 flex flex-col pb-2 items-center;
   }
+
+  .formField {
+    @apply border-2 border-gray-300 bg-white h-10
+    px-5 pr-16 rounded-lg text-sm outline-none;
+  }
 }
