@@ -86,7 +86,7 @@ const Header = (props: Props) => {
         >
           Search
         </button>
-        <Link href="/create">
+        <Link href="/createListing">
           <button
             className="border-2 border-blue-600 px-5 md:px-10 py-2
               text-blue-600 hover:bg-blue-600/50 hover:text-white"
